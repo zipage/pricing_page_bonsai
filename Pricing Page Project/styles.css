@@ -1,0 +1,140 @@
+/* Colours: 
+
+Grey: #4c4d5f
+White: #fff
+Green: #00b289
+Yellow: #f8db62
+
+*/
+
+
+body,
+html {
+    color: #4c4d5f;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* NAVIGATION */
+nav {
+    margin: 0px;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px;
+}
+
+#logo {
+    /* pushing content to the right of the logo, to the centre */
+    margin-right: 40%;
+}
+
+
+/* PLANS & PRICING */
+.plansAndPricing {
+    display: flex;
+    width: 60%;
+    margin-left: 19%;
+}
+
+.plansAndPricing__starter {
+    background-color: #fafafa;
+    float: left;
+    /*creates the space outside of each "box" */
+    margin: 20px;
+    /* creates the spaces inside each "box" */
+    padding: 30px;
+    border-radius: 2px;
+}
+
+.plansAndPricing__professional {
+    background-color: #fafafa;
+    float: center;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 2px;
+}
+
+.plansAndPricing__business {
+    background-color: #fafafa;
+    float: right;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 2px;
+}
+
+/* ADD-ON'S */
+.addOns {
+    width: 50%;
+    display: block;
+    margin-left: 22%;
+    padding: 30px;
+}
+
+.addOns__collaborators {
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 30px;
+}
+
+
+.addOns__partners {
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 30px;
+}
+
+.addOns__bonsaiTax {
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 30px;
+}
+
+
+/* START FREE/JOIN BUTTON */
+.startFree {
+    width: 40%;
+    border: 2px solid #ebe9e9;
+    display: block;
+    margin-left: 27%;
+    padding: 30px;
+}
+
+
+/* FAQ'S */
+.faqs {
+
+    width: 50%;
+    margin-left: 24%;
+}
+
+
+details>summary {
+    /* removes that arrow by default */
+    list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+}
